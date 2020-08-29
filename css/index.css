@@ -1,0 +1,942 @@
+@media screen and (min-width: 768px) {
+	
+	.pc{
+		display: block;
+	}
+	
+	.Mobile{
+		display: none;
+	}
+	
+	.top {
+		width: 100%;
+		height: 70px;
+		background-color: #000;
+	}
+
+	.top .top-center {
+		width: 1200px;
+		height: 70px;
+		margin: 0 auto;
+		clear: none;
+	}
+
+	.top .top-logo {
+		width: 177px;
+		height: 69px;
+		background: url("../images/topbar.png") no-repeat;
+		padding: 0 15px 0 0;
+		float: left;
+	}
+
+	.top .top-center ul {
+		width: 600px;
+		height: 70px;
+		overflow: hidden;
+		float: left;
+	}
+
+	.top .top-center ul li {
+		font-size: 14px;
+		float: left;
+		padding: 30px 20px;
+		list-style: none;
+	}
+
+	.top .top-center ul li a {
+		color: #ccc;
+		text-decoration: none;
+	}
+
+	.top .top-center ul li .aitve1 {
+		font-size: 14px;
+		color: #fff;
+	}
+
+	.top .top-center .en {
+		width: 29px;
+		height: 30px;
+		background-image: url("../images/topbar.png");
+		background-repeat: no-repeat;
+		background-position: -190px 15px;
+		overflow: hidden;
+	}
+
+	.top .top-center .top-inp {
+		padding-top: 20px;
+	}
+
+	.top .top-center .top-inp .inp1 {
+		width: 158px;
+		height: 32px;
+		border-radius: 20px;
+		text-indent: 30px;
+		background-image: url("../images/topbar.png");
+		background-repeat: no-repeat;
+		background-position: 0px -98px;
+		overflow: hidden;
+	}
+
+	.top .top-center .top-inp .inp2 {
+		width: 90px;
+		height: 32px;
+		margin-left: 20px;
+		border: 1px solid #666;
+		color: #ccc;
+		border-radius: 20px;
+		background-color: #000;
+		overflow: hidden;
+	}
+
+	.top .top-center .top-inp .inp2:hover {
+		border: 1px solid #ccc;
+		color: #fff;
+	}
+
+	.top .top-center .top-inp a {
+		margin-left: 30px;
+		color: #ccc;
+		text-decoration: none;
+	}
+
+	.top .top-center .top-inp a:hover {
+		color: #fff;
+		margin-left: 30px;
+	}
+
+	.hhh {
+		background-color: #000;
+	}
+
+	.hhh p {
+		height: 7px;
+		background: url("../images/topbar.png") no-repeat;
+		background-position: -225px -0px;
+		background-color: #000;
+		margin: 0;
+		margin-left: 28%;
+	}
+
+	.top-hos {
+		width: 100%;
+		height: 35px;
+		background-color: #c20c0c;
+	}
+
+	.top-hos .top-p {
+		width: 1200px;
+		height: 35px;
+		margin: 0 auto;
+	}
+
+	.top-hos .top-p ul {
+		margin-left: 170px;
+	}
+
+	.top-hos .top-p ul li {
+		float: left;
+		margin-left: 50px;
+		line-height: 35px;
+
+	}
+
+	.top-hos .top-p ul li a {
+		color: #fff;
+	}
+
+	.top-hos .top-p ul li a:hover {
+		color: orangered;
+	}
+
+	/* 轮播图 */
+	.banner {
+		width: 100%;
+		height: 285px;
+		background: url("../images/109951165244337086.jpg");
+	}
+
+	.banner-sdd {
+		width: 984px;
+		height: 285px;
+		margin: 0 auto;
+		overflow: hidden;
+		position: relative;
+	}
+
+	.banner-sdd ul {
+		width: 730px;
+		height: 285px;
+		position: relative;
+		left: 0;
+	}
+
+	.banner-sdd ul li {
+		width: 3650px;
+		list-style: none;
+	}
+
+	.banner-sdd ul li img {
+		width: 730px;
+		height: 285px;
+		float: left;
+	}
+
+	.banner-sdd .ban-r {
+		width: 254px;
+		height: 285px;
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: 199;
+		background-color: #111;
+	}
+
+	.banner-sdd .ban-r .ban-s {
+		width: 254px;
+		height: 245px;
+		overflow: hidden;
+	}
+
+	.banner-sdd .ban-r .ban-s img {
+		width: 254px;
+		height: 353px;
+		text-align: center;
+	}
+
+	.banner-sdd .ban-r p {
+		position: absolute;
+		top: 250px;
+		left: 15px;
+		z-index: 200;
+		font-size: 12px;
+		color: #ccc;
+	}
+
+	/* 热门推荐 */
+	.rmtj {
+		width: 100%;
+		height: 1400px;
+		background-color: #f5f5f5;
+		clear: none;
+	}
+
+	.rmtj .ddd {
+		width: 984px;
+		height: 1400px;
+		margin: 0 auto;
+	}
+
+	/* 热门推荐-导航 */
+	.rmtj .ddd .rmtj-s {
+		box-sizing: border-box;
+		width: 729px;
+		height: 1400px;
+		border: 1px solid #999;
+		border-right: 0;
+		background-color: #fff;
+		box-sizing: border-box;
+		padding: 20px 20px 40px;
+		float: left;
+	}
+
+	.rmtj .ddd .rmtj-s .tj {
+		width: 689px;
+		height: 35px;
+		border-bottom: 3px solid red;
+		margin: 0 auto;
+		box-sizing: border-box;
+		padding: 0 10px 0 34px;
+		clear: none;
+		overflow: hidden;
+	}
+
+	.rmtj .ddd .rmtj-s .tj .tj-span {
+		display: inherit;
+		width: 35px;
+		height: 35px;
+		margin-left: -25px;
+		background-position: -230px -154px;
+		background-image: url("../images/index.png");
+		float: left;
+	}
+
+	.rmtj .ddd .rmtj-s .tj .tj-span1 {
+		display: block;
+		font-size: 20px;
+		line-height: 35px;
+		float: left;
+	}
+
+	.rmtj .ddd .rmtj-s .tj .tj-ul li {
+		float: left;
+		color: #333;
+	}
+
+	.rmtj .ddd .rmtj-s .tj .tj-ul li a {
+		color: #666;
+		margin-left: 20px;
+		line-height: 40px;
+	}
+
+	.rmtj .ddd .rmtj-s .p {
+		float: right;
+		margin-right: 0px;
+		font-size: 12px;
+		line-height: 35px;
+		color: #666;
+	}
+
+	.rmtj .ddd .rmtj-s .p a {
+		float: left;
+	}
+
+	.rmtj .ddd .rmtj-s .p p {
+		display: block;
+		width: 35px;
+		height: 35px;
+		float: right;
+		background-position: 10px -228px;
+		background-image: url("../images/index.png");
+	}
+
+	/* 热门推荐-歌单 */
+	.rmtj .ddd .rmtj-gd {
+		width: 689px;
+		height: 220px;
+		margin-top: 10px;
+		display: flex;
+		overflow: hidden;
+	}
+
+	.rmtj .ddd .rmtj-gd>div {
+		flex: 1;
+		height: 220px;
+		text-align: center;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.rmtj .ddd .rmtj-gd>div img {
+		width: 140px;
+		height: 140px;
+		position: relative;
+		z-index: 1;
+	}
+
+	.rmtj .ddd .rmtj-gd>div p {
+		width: 140px;
+		margin-left: 18px;
+		font-size: 14px;
+		text-align: left;
+	}
+
+	.rmtj .ddd .rmtj-gd>div .gd-h {
+		width: 140px;
+		height: 30px;
+		background: rgba(0, 0, 0, 0.4);
+		margin-top: -85px;
+		position: absolute;
+		top: 89.1%;
+		z-index: 10;
+		margin-left: 16px;
+	}
+
+	.rmtj .ddd .rmtj-gd>div .gd-h .hhh {
+		width: 20px;
+		height: 30px;
+		background-position: 0px -15px;
+		background-image: url("../images/iconall.png");
+		float: left;
+	}
+
+	.rmtj .ddd .rmtj-gd>div .gd-h .pp {
+		color: #fff;
+		line-height: 30px;
+	}
+
+	.rmtj .ddd .rmtj-gd>div .gd-h .h2 {
+		width: 20px;
+		height: 30px;
+		background-position: 0px 8px;
+		background-image: url("../images/iconall.png");
+		float: right;
+		margin-top: -32px;
+	}
+
+	/* 新碟上架-导航 */
+	.rmtj .ddd .rmtj-s .tj1 {
+		width: 689px;
+		height: 35px;
+		border-bottom: 3px solid red;
+		margin: 0 auto;
+		box-sizing: border-box;
+		padding: 0 10px 0 34px;
+		clear: none;
+		margin-top: 20px;
+	}
+
+	.rmtj .ddd .rmtj-s .tj1 .tj-span {
+		display: inherit;
+		width: 35px;
+		height: 35px;
+		margin-left: -25px;
+		background-position: -230px -154px;
+		background-image: url("../images/index.png");
+		float: left;
+	}
+
+	.rmtj .ddd .rmtj-s .tj1 .tj-span1 {
+		display: block;
+		font-size: 20px;
+		line-height: 35px;
+		float: left;
+	}
+
+	.rmtj .ddd .rmtj-s .p {
+		float: right;
+		margin-right: 0px;
+		font-size: 12px;
+		line-height: 35px;
+		color: #666;
+	}
+
+	.rmtj .ddd .rmtj-s .p a {
+		float: left;
+	}
+
+	.rmtj .ddd .rmtj-s .p p {
+		display: block;
+		width: 35px;
+		height: 35px;
+		float: right;
+		background-position: 10px -228px;
+		background-image: url("../images/index.png");
+	}
+
+	/* 新碟上架-歌单 */
+	.rmtj .ddd .rmtj-s .xdsj {
+		width: 687px;
+		height: 186px;
+		background-color: #f5f5f5;
+		border: 1px solid #ccc;
+		margin-top: 20px;
+	}
+
+	.rmtj .ddd .rmtj-s .xdsj .xdsj-g {
+		padding: 0 0 0 16px;
+		width: 645px;
+		height: 186px;
+		display: flex;
+		overflow: hidden;
+	}
+
+	.rmtj .ddd .rmtj-s .xdsj .xdsj-g>div {
+		flex: 1;
+		height: 100px;
+		background: url("../images/coverall.png") no-repeat;
+		background-position: 0px -570px;
+		margin: 15px 5px;
+	}
+
+	.rmtj .ddd .rmtj-s .xdsj .xdsj-g>div .xdsj-s img {
+		width: 100px;
+		height: 100px;
+	}
+
+	.rmtj .ddd .rmtj-s .xdsj .xdsj-g>div .xdsj-s .cutFont {
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+	}
+
+	.rmtj .ddd .rmtj-s .bd-q {
+		width: 689px;
+		height: 500px;
+		background-color: khaki;
+		margin-top: 20px;
+		display: flex;
+	}
+
+	.rmtj .ddd .rmtj-s .bd-q>div {
+		flex: 1;
+		border: 1px solid #999;
+		border-right: 0;
+	}
+
+	.rmtj .ddd .rmtj-s .bd-q>div:nth-child(3) {
+		border-right: 1px solid #999;
+	}
+
+	.rmtj .ddd .rmtj-s .bd-q>div .bd-s {
+		box-sizing: border-box;
+		width: 230px;
+		height: 120px;
+		padding: 20px 0 0 19px;
+		clear: none;
+		background-color: #dadada;
+	}
+
+	.rmtj .ddd .rmtj-s .bd-q>div .bd-s p {
+		width: 80px;
+		height: 80px;
+		background-image: url("../images/coverall.png");
+		background-repeat: no-repeat;
+		background-position: -145px -57px;
+		background-color: cornflowerblue;
+		font-size: 20px;
+		text-align: center;
+		line-height: 75px;
+		color: #fff;
+		float: left;
+	}
+
+	.rmtj .ddd .rmtj-s .bd-q>div .bd-s .sp {
+		line-height: 50px;
+		font-size: 18px;
+	}
+
+	.rmtj .ddd .rmtj-s .bd-q>div .bd-s .sp1 {
+		display: inline-block;
+		width: 22px;
+		height: 22px;
+		background-image: url("../images/index.png");
+		background-repeat: no-repeat;
+		background-position: -267px -205px;
+		margin: 5px 10px;
+	}
+
+	.rmtj .ddd .rmtj-s .bd-q>div .bd-s .sp2 {
+		display: inline-block;
+		width: 22px;
+		height: 22px;
+		background-image: url("../images/index.png");
+		background-repeat: no-repeat;
+		background-position: -300px -205px;
+		margin: 5px 0px;
+	}
+
+	.rmtj .ddd .rmtj-s .bd-q>div .gd {
+		box-sizing: border-box;
+		width: 230px;
+		height: 380px;
+		background-color: #999;
+		display: flex;
+		flex-direction: column;
+		overflow: hidden;
+	}
+
+	.rmtj .ddd .rmtj-s .bd-q>div .gd>div {
+		flex: 1;
+	}
+
+	.rmtj .ddd .rmtj-s .bd-q>div .gd>div span {
+		display: inline-block;
+		width: 33px;
+		height: 30px;
+		text-align: center;
+		line-height: 30px;
+	}
+
+	.rmtj .ddd .rmtj-s .bd-q>div .gd>div a {
+		font-size: 12px;
+	}
+
+	.rmtj .ddd .rmtj-s .bd-q>div .gd>div:nth-child(11) {
+		border-bottom: 1px solid #999;
+		text-align: right;
+		background-color: #fff;
+		padding-top: 10px;
+	}
+
+	/* 新歌榜 */
+	.rmtj .ddd .rmtj-s .bd-q>div .bd-s .p1 {
+		width: 80px;
+		height: 80px;
+		background-image: url("../images/coverall.png");
+		background-repeat: no-repeat;
+		background-position: -145px -57px;
+		background-color: rgb(58, 211, 160);
+		font-size: 20px;
+		text-align: center;
+		line-height: 75px;
+		color: #fff;
+		float: left;
+		overflow: hidden;
+	}
+
+	.rmtj .ddd .rmtj-s .bd-q>div .bd-s .p2 {
+		width: 80px;
+		height: 80px;
+		background-image: url("../images/coverall.png");
+		background-repeat: no-repeat;
+		background-position: -145px -57px;
+		background-color: rgb(211, 58, 109);
+		font-size: 20px;
+		text-align: center;
+		line-height: 75px;
+		color: #fff;
+		float: left;
+	}
+
+	/*  登录 入驻歌手 热门主播  */
+	.rmtj .ddd .rmtj-fc3 {
+		width: 255px;
+		height: 1400px;
+		background-color: #fff;
+		box-sizing: border-box;
+		float: right;
+		overflow: hidden;
+	}
+
+	.rmtj .ddd .rmtj-fc3 .rmtj-s {
+		width: 255px;
+		height: 125px;
+		background: url("../images/index.png");
+		background-position: 0px 0;
+		background-size: 425px 465px;
+	}
+
+	.rmtj .ddd .rmtj-fc3 .rmtj-s button {
+		display: block;
+		width: 100px;
+		height: 31px;
+		line-height: 31px;
+		text-align: center;
+		color: #fff;
+		background-color: red;
+		margin: 10px 50px;
+		border: 0;
+		border-radius: 10px;
+	}
+
+	.rmtj .ddd .rmtj-fc3 .rmtj-d {
+		width: 250px;
+		height: 454px;
+		/* border:1px solid #c9c9c9; */
+		margin-top: 125px;
+	}
+
+	.rmtj .ddd .rmtj-fc3 .rmtj-d .hd3 {
+		margin: 0px 20px;
+		clear: none;
+		border-bottom: 1px solid #999;
+		padding: 10px 0;
+		overflow: hidden;
+	}
+
+	.rmtj .ddd .rmtj-fc3 .f-cd {
+		display: flex;
+		height: 430px;
+		margin: 6px 0 14px 20px;
+		flex-direction: column;
+	}
+
+	.rmtj .ddd .rmtj-fc3 .f-cd>div {
+		flex: 1;
+		overflow: hidden;
+	}
+
+	.rmtj .ddd .rmtj-fc3 .f-cd>div img {
+		width: 62px;
+		height: 62px;
+		float: left;
+	}
+
+	.rmtj .ddd .rmtj-fc3 .f-cd>div span {
+		margin-left: 10px;
+		line-height: 20px;
+	}
+
+	.rmtj .ddd .rmtj-fc3 .f-cd>div button {
+		width: 210px;
+		height: 30px;
+	}
+
+	.rmtj .ddd .rmtj-fc3 .f-cd1 {
+		display: flex;
+		height: 300px;
+		margin: 20px 20px;
+		flex-direction: column;
+	}
+
+	.rmtj .ddd .rmtj-fc3 .f-cd1>div {
+		flex: 1;
+		overflow: hidden;
+	}
+
+	.rmtj .ddd .rmtj-fc3 .f-cd1>div img {
+		width: 40px;
+		height: 40px;
+		float: left;
+	}
+
+	.rmtj .ddd .rmtj-fc3 .f-cd1>div span:nth-child(2) {
+		margin-left: 10px;
+		line-height: 20px;
+		font-size: 12px;
+	}
+
+	.rmtj .ddd .rmtj-fc3 .f-cd1>div p {
+		display: inline-block;
+		width: 11px;
+		height: 13px;
+		background: url("../images/icon.png") no-repeat;
+		background-position: 0 1px;
+		margin: 0 5px;
+	}
+
+	.rmtj .ddd .rmtj-fc3 .f-cd1>div span:nth-child(5) {
+		margin-left: 10px;
+		line-height: 20px;
+		font-size: 12px;
+	}
+
+	/* 底部 */
+	.bottom {
+		width: 100%;
+		height: 170px;
+		background-color: #f2f2f2;
+		overflow: hidden;
+	}
+
+	.bottom .bottom-s {
+		width: 985px;
+		height: 170px;
+		margin: 0 auto;
+	}
+
+	.bottom .bottom-s .bottom-sd {
+		width: 520px;
+		float: left;
+	}
+
+	.bottom .bottom-s ul li {
+		float: left;
+		margin-top: 20px;
+		color: #999;
+		font-size: 12px;
+	}
+
+	.bottom .bottom-s ul li a {
+		color: #999;
+	}
+
+	.bottom .bottom-s p {
+		color: #999;
+		font-size: 12px;
+		clear: left;
+	}
+
+	.bottom .bottom-s p img {
+		width: 14px;
+	}
+
+	.bottom .bottom-s .bottom-w {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+	}
+
+	.bottom .bottom-s .bottom-w>div {
+		flex: 1;
+	}
+
+	.bottom .bottom-s .bottom-w>div p {
+		display: inline-block;
+		width: 50px;
+		height: 45px;
+		background: url("../images/foot_enter_new.png") no-repeat;
+		background-position: -63px -456.5px;
+		background-size: 110px 552px;
+		margin-top: 30px;
+	}
+
+	.bottom .bottom-s .bottom-w>div span {
+		display: inline-block;
+		font-size: 12px;
+		color: #999;
+		width: 100px;
+	}
+
+	.bottom .bottom-s .bottom-w>div:nth-child(2) p {
+		background: url("../images/foot_enter_new.png") no-repeat;
+		background-position: -63px -101px;
+		background-size: 110px 552px;
+	}
+
+	.bottom .bottom-s .bottom-w>div:nth-child(3) p {
+		background: url("../images/foot_enter_new.png") no-repeat;
+		background-position: 0 0;
+		background-size: 110px 552px;
+	}
+
+	.bottom .bottom-s .bottom-w>div:nth-child(4) p {
+		background: url("../images/foot_enter_new.png") no-repeat;
+		background-position: -60px -50px;
+		background-size: 110px 552px;
+	}
+
+	.bottom .bottom-s .bottom-w>div:nth-child(5) p {
+		background: url("../images/foot_enter_new.png") no-repeat;
+		background-position: 0 -101px;
+		background-size: 110px 552px;
+	}
+}
+
+/* 移动端 */
+@media screen and (max-width: 768px) {
+	
+	.pc{
+		display: none;
+	}
+	
+	.Mobile{
+		display: block;
+	}
+
+	/* 头部APP下载广告 */
+	.top {
+		padding: 0.2rem 0.2rem;
+		background-color: #c20c0c;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.top .t-l {
+		height: 1.2rem;
+		width: 2.6rem;
+		background: url(../img/topbar.png) no-repeat;
+		background-size: 3.75rem;
+	}
+
+	.top .t-r input {
+		border: 0;
+		font-size: 0.3rem;
+		color: #c20c0c;
+		height: 0.7rem;
+		width: 2rem;
+		background-color: #fff;
+		border-radius: 0.6rem;
+	}
+
+	/* 导航栏 */
+	.nav {
+		height: 0.8rem;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		border-bottom: 0.01rem solid #D3D9DF;
+	}
+
+	.nav div {
+		width: 100%;
+		height: 0.8rem;
+		text-align: center;
+	}
+
+	.nav div a {
+		display: inline-block;
+		padding: 0 0.1rem;
+		line-height: 0.8rem;
+		font-size: 0.28rem;
+		height: 0.8rem;
+		text-align: center;
+		color: #000000;
+	}
+
+	.nav div a.active {
+		color: #C20C0C;
+		border-bottom: 0.04rem solid #C20C0C;
+	}
+
+	/* 推荐音乐 */
+	.floor .title {
+		padding: 0.24rem 0;
+	}
+
+	.floor .title span {
+		display: inline-block;
+		padding-left: 0.1rem;
+		border-left: 0.04rem solid #C20C0C;
+		font-size: 0.28rem;
+	}
+
+	.recommend {
+		margin-bottom: 0.2rem;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.recommend>div {
+		position: relative;
+	}
+
+	.recommend>div:nth-child(2),
+	.recommend>div:nth-child(4) {
+		margin: 0 0.02rem;
+	}
+
+	.recommend>div>div:first-child {
+		position: absolute;
+		right: 0.1rem;
+		top: 0.1rem;
+		color: white;
+	}
+
+	.recommend>div>div:first-child>img {
+		margin-right: 0.1rem;
+		width: 0.24rem;
+	}
+
+	.recommend>div>div:last-child {
+		width: 2rem;
+	}
+
+	.recommend>div>img {
+		width: 2.4rem;
+	}
+
+	/* 最新音乐 */
+	.new>div {
+		display: flex;
+		justify-content: space-between;
+		padding: 0.08rem 0;
+		margin-left: 0.1rem;
+		width: 7.4rem;
+		border-bottom: 0.01rem solid #D6D8DB;
+	}
+
+	.new>div>.l p {
+		font-size: 0.3rem;
+	}
+
+	.new>div>.l span {
+		color: #999;
+	}
+
+	.new>div>.l>span {
+		font-size: 0.2rem;
+	}
+
+	.new>div>.l>b {
+		display: inline-block;
+		width: 0.4rem;
+		height: 0.2rem;
+		background: url(../img/yd/index_icon_2x.png);
+		background-position: 0.04rem 0.03rem;
+		background-size: 3.3rem 1.9rem;
+	}
+
+	.new>div>.r {
+		width: 1rem;
+		background: url(../img/yd/index_icon_2x.png);
+		background-position: -0.3rem 0.2rem;
+		background-size: 3.3rem 1.9rem;
+	}
+
+	/* foot */
+	.foot img {
+		width: 7.5rem;
+	}
+}
